@@ -3,12 +3,12 @@
 # Minna Yu
 
 echo "Enter a number: "
-read $NUM
+read "$NUM"
 declare -i counter
 while [[ "$counter" -le "$NUM" ]]
 do	
 	zero="0";
-	if [[ $((NUM%2)) == $zero ]];
+	if [[ $((NUM%2)) == "$zero" ]];
 	then
 		echo "$counter Even"
 	else
