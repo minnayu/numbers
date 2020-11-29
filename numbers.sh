@@ -3,7 +3,7 @@
 # Minna Yu
 
 echo "Enter a number: "
-read "$NUM"
+read $NUM
 declare -i counter
 while [[ "$counter" -le "$NUM" ]]
 do	
