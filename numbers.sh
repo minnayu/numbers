@@ -5,7 +5,7 @@
 echo "Enter a number: "
 read $NUM
 declare -i counter
-while [[ $counter -le $NUM ]]
+while [[ "$counter" -le "$NUM" ]]
 do	
 	zero="0";
 	if [[ $((NUM%2)) == $zero ]];
