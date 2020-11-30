@@ -6,12 +6,12 @@ echo "Please enter a positive number: "
 read -r NUM
 X=1
 while [ "$X" -le "$NUM" ]
-do	
+do
 	if [ $((NUM%2)) -eq 0 ]
 	then
-		echo "$X Even"
+		echo "$X even"
 	else
-		echo "$X Odd"
+		echo "$X odd"
 	fi
 	X=$((X+1))	
 done
