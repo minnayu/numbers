@@ -7,7 +7,7 @@ read -r NUM
 X=1
 while [ "$X" -le "$NUM" ]
 do
-	if [ $((NUM%2)) -eq 0 ]
+	if [ $((X%2)) -eq 0 ]
 	then
 		echo "$X even"
 	else
