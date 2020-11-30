@@ -4,15 +4,14 @@
 
 echo "Please enter a positive number: "
 read -r NUM
-counter=1
-while [ "$counter" -le "$NUM" ]
+X=1
+while [ "$X" -le "$NUM" ]
 do	
 	if [ $((NUM%2)) -eq 0 ]
 	then
-		echo "$counter Even"
+		echo "$X Even"
 	else
-		echo "$counter Odd"
+		echo "$X Odd"
 	fi
-	counter=$((counter+1))
-	
+	X=$((X+1))	
 done
