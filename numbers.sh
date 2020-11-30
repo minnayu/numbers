@@ -7,7 +7,7 @@ read -r NUM
 counter=1
 while [ "$counter" -le "$NUM" ]
 do	
-	if [ $((NUM%2)) -eq "$zero" ];
+	if [ $((NUM%2)) -eq 0 ];
 	then
 		echo "$counter Even"
 	else
