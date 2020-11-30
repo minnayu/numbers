@@ -13,6 +13,6 @@ do
 	else
 		echo "$counter Odd"
 	fi
-	N=$((N+1))
+	counter=$((counter+1))
 	
 done
